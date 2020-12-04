@@ -33,7 +33,7 @@ def get_p_value(arrA, arrB):
     pvalue = res.pvalue;
     return w_2,w_1,pvalue
 parameter = {};
-name = 'Glass'#Vertebral_Column Transfusion heart glass Ionosphere parkinsons learn1
+name = 'Cancer_dataset'#Vertebral_Column Transfusion heart Glass Ionosphere parkinsons
 data_file_encode = "gb18030"
 data_ex = pd.read_excel(name+'.xlsx')
 data = data_ex.values;
